@@ -7,5 +7,7 @@ class Article
   field :content,     type: String, localize: true
 
   has_many :images, as: :imageable
+  
+  validates :title, presence: true
 
 end

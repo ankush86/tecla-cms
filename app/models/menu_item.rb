@@ -5,4 +5,6 @@ class MenuItem
   field :title,       type: String, localize: true
   field :order,       type: Integer
 
+  validates :title, presence: true
+  
 end

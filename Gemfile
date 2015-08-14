@@ -53,6 +53,6 @@ gem "mongoid", '~> 5.0.0.beta'
 
 # Gems Need to Upload Images on S3
 gem 'carrierwave'
-gem 'carrierwave-mongoid', :github => 'jnicklas/carrierwave-mongoid'
+gem 'carrierwave-mongoid', :require => 'carrierwave/mongoid'
 gem 'fog'
 gem 'fog-aws'

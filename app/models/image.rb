@@ -3,7 +3,9 @@ class Image
 
   field :content
   field :mime_description,   type: String
+  
+  #mount_uploader :content, ImageUploader
 
   belongs_to :imageable, polymorphic: true
-
+  
 end
