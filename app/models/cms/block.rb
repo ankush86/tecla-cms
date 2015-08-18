@@ -1,12 +1,12 @@
-class Page
-  include Mongoid::Document
+class CMS::Block
+  include CMS::Document
 
   field :type,        type: String
   field :title,       type: String, localize: true
   field :template,    type: String
   field :content,     type: String, localize: true
 
-  has_many :images, as: :imageable
+  has_many :images, class_name: "CMS::Image", as: :imageable
   
   validates :title, presence: true
   

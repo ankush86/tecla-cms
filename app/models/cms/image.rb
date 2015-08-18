@@ -1,4 +1,4 @@
-class Image
+class CMS::Image
   include Mongoid::Document
 
   field :content
