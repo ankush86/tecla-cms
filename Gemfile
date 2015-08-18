@@ -56,3 +56,12 @@ gem 'carrierwave'
 gem 'carrierwave-mongoid', :require => 'carrierwave/mongoid'
 gem 'fog'
 gem 'fog-aws'
+
+#devise
+gem 'bson_ext'
+gem 'devise'
+gem 'rolify'
+gem 'cancancan', '~> 1.12.0'
+gem 'mongoid-history'
+gem 'mongoid_orderable'
+gem 'rails_admin', '~> 0.7.0'
